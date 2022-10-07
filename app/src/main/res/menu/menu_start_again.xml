@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mi_start_again"
+        android:orderInCategory="100"
+        android:title="Restart navigation"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/mi_nearby"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="" />
+
+    <item
+        android:id="@+id/launch_on_boot"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Download Launch on Boot App" />
+
+
+</menu>

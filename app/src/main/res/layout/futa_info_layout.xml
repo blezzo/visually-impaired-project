@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/dialog"
+    android:background="#ffffff">
+
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/four_dp"
+        android:paddingTop="@dimen/four_dp"
+        android:paddingRight="@dimen/four_dp"
+        android:layout_marginBottom="@dimen/fortyeight_dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/futa_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:contentDescription="logo"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingTop="@dimen/eight_dp"
+                android:paddingRight="@dimen/sixteendp"
+                android:src="@drawable/futa_logo" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grey_light"/>
+
+            <TextView
+                android:id="@+id/futa_info_welcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingRight="@dimen/sixteendp"
+                android:text="Welcome to The Federal University of Technology, Akure" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grey_light"/>
+
+            <TextView
+                android:id="@+id/futa_info_"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:paddingTop="@dimen/eight_dp"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingRight="@dimen/sixteendp"
+                android:paddingBottom="@dimen/eight_dp"
+                android:layout_below="@+id/futa_info_welcome"
+                android:text="FUTA is a top ranking University of Technology in Nigeria located in Akure, Ondo State."
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+            <ImageView
+                android:id="@+id/futa_maingate"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_below="@id/futa_info_"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:contentDescription="Futa entrance"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingTop="@dimen/eight_dp"
+                android:paddingRight="@dimen/sixteendp"
+                android:src="@drawable/futa_entrance" />
+
+            <TextView
+                android:id="@+id/futa_info_main_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:background="@drawable/frame_back_opaq"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:padding="@dimen/four_dp"
+                android:layout_below="@id/futa_maingate"
+                android:text="SENATE BUILDING" />
+            <ImageView
+                android:id="@+id/futa_mainbuilding"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:contentDescription="senate building"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingTop="@dimen/eight_dp"
+                android:paddingRight="@dimen/sixteendp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/futa_senate"
+                android:layout_below="@id/futa_info_main_title" />
+            <TextView
+                android:id="@+id/futa_info_mainbuild"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingRight="@dimen/sixteendp"
+                android:paddingBottom="@dimen/eight_dp"
+                android:text="@string/senate"
+                android:layout_below="@id/futa_mainbuilding"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/futa_info_capacity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:background="@drawable/frame_back_opaq"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:padding="@dimen/four_dp"
+                android:layout_below="@id/futa_info_mainbuild"
+                android:text="FUTA 2500 CAPACITY HALL" />
+            <ImageView
+                android:id="@+id/futa_capacity"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:contentDescription="futa 2500 capacity"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingTop="@dimen/eight_dp"
+                android:paddingRight="@dimen/sixteendp"
+                android:src="@drawable/futa_capacity"
+                android:layout_below="@id/futa_info_capacity" />
+            <TextView
+                android:id="@+id/futa_capaci"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingRight="@dimen/sixteendp"
+                android:paddingBottom="@dimen/eight_dp"
+                android:text="@string/capacity"
+                android:layout_below="@id/futa_capacity"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/futa_info_library"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:background="@drawable/frame_back_opaq"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:padding="@dimen/four_dp"
+                android:layout_below="@id/futa_capaci"
+                android:text="SCHOOL LIBRARY" />
+            <ImageView
+                android:id="@+id/futa_library"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:contentDescription="School Library"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingTop="@dimen/eight_dp"
+                android:paddingRight="@dimen/sixteendp"
+                android:src="@drawable/futa_library"
+                android:layout_below="@id/futa_info_library" />
+            <TextView
+                android:id="@+id/futa_libra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingRight="@dimen/sixteendp"
+                android:paddingBottom="@dimen/eight_dp"
+                android:text="@string/lib"
+                android:layout_below="@id/futa_library"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+
+            <TextView
+                android:id="@+id/futa_info_crc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:background="@drawable/frame_back_opaq"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:padding="@dimen/four_dp"
+                android:layout_below="@id/futa_libra"
+                android:text="COMPUTER RESOURCE CENTRE" />
+            <ImageView
+                android:id="@+id/futa_crc"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:contentDescription="School Library"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingTop="@dimen/eight_dp"
+                android:paddingRight="@dimen/sixteendp"
+                android:src="@drawable/futa_crc"
+                android:layout_below="@id/futa_info_crc" />
+            <TextView
+                android:id="@+id/futa_cr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingRight="@dimen/sixteendp"
+                android:paddingBottom="@dimen/eight_dp"
+                android:text="@string/crc"
+                android:layout_below="@id/futa_crc"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/futa_info_stuaff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:background="@drawable/frame_back_opaq"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:padding="@dimen/four_dp"
+                android:layout_below="@id/futa_cr"
+                android:text="STUDENT AFFAIRS DIVISION" />
+            <ImageView
+                android:id="@+id/futa_stuaff"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:contentDescription="Student Affairs"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingTop="@dimen/eight_dp"
+                android:paddingRight="@dimen/sixteendp"
+                android:src="@drawable/student_affairs"
+                android:layout_below="@id/futa_info_stuaff" />
+            <TextView
+                android:id="@+id/futa_sf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingRight="@dimen/sixteendp"
+                android:paddingBottom="@dimen/eight_dp"
+                android:text="affairs"
+                android:layout_below="@id/futa_stuaff"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/futa_info_newhostel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:background="@drawable/frame_back_opaq"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:padding="@dimen/four_dp"
+                android:layout_below="@id/futa_sf"
+                android:text="FUTA NEW HOSTEL" />
+            <ImageView
+                android:id="@+id/futa_newhostel"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:contentDescription="Futa New Hostel"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingTop="@dimen/eight_dp"
+                android:paddingRight="@dimen/sixteendp"
+                android:src="@drawable/futa_newhostel"
+                android:layout_below="@id/futa_info_newhostel" />
+            <TextView
+                android:id="@+id/futa_newhost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingRight="@dimen/sixteendp"
+                android:paddingBottom="@dimen/eight_dp"
+                android:text="futa capacity"
+                android:layout_below="@id/futa_newhostel"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/futa_info_seet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:background="@drawable/frame_back_opaq"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:padding="@dimen/four_dp"
+                android:layout_below="@id/futa_newhost"
+                android:text="SCHOOL OF ENGINEERING AND ENGINEERING TECHNOLOGY" />
+            <ImageView
+                android:id="@+id/futa_seet"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:contentDescription="SEET"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingTop="@dimen/eight_dp"
+                android:paddingRight="@dimen/sixteendp"
+                android:src="@drawable/futa_seet"
+                android:layout_below="@id/futa_info_seet" />
+            <TextView
+                android:id="@+id/futa_engineer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingRight="@dimen/sixteendp"
+                android:paddingBottom="@dimen/eight_dp"
+                android:text="@string/seet"
+                android:layout_below="@id/futa_seet"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/futa_info_saat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:background="@drawable/frame_back_opaq"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:padding="@dimen/four_dp"
+                android:layout_below="@id/futa_engineer"
+                android:text="SCHOOL OF AGRICULTURE AND AGRICULTURAL TECHNOLOGY" />
+            <ImageView
+                android:id="@+id/futa_saat"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:contentDescription="SAAT"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingTop="@dimen/eight_dp"
+                android:paddingRight="@dimen/sixteendp"
+                android:src="@drawable/futa_saat"
+                android:layout_below="@id/futa_info_saat" />
+            <TextView
+                android:id="@+id/futa_agriculture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingRight="@dimen/sixteendp"
+                android:paddingBottom="@dimen/eight_dp"
+                android:text="@string/saat"
+                android:layout_below="@id/futa_saat"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/futa_info_soc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:background="@drawable/frame_back_opaq"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:padding="@dimen/four_dp"
+                android:layout_below="@id/futa_agriculture"
+                android:text="SCHOOL OF COMPUTING" />
+            <ImageView
+                android:id="@+id/futa_soc"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:contentDescription="SOC"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingTop="@dimen/eight_dp"
+                android:paddingRight="@dimen/sixteendp"
+                android:src="@drawable/futa_soc"
+                android:layout_below="@id/futa_info_soc" />
+            <TextView
+                android:id="@+id/futa_computing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingRight="@dimen/sixteendp"
+                android:paddingBottom="@dimen/eight_dp"
+                android:text="@string/soc"
+                android:layout_below="@id/futa_soc"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/futa_info_sos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:background="@drawable/frame_back_opaq"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:padding="@dimen/four_dp"
+                android:layout_below="@id/futa_computing"
+                android:text="SCHOOL OF SCIENCE" />
+            <ImageView
+                android:id="@+id/futa_sos"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:contentDescription="SOS"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingTop="@dimen/eight_dp"
+                android:paddingRight="@dimen/sixteendp"
+                android:src="@drawable/futa_sos"
+                android:layout_below="@id/futa_info_sos" />
+            <TextView
+                android:id="@+id/futa_science"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingRight="@dimen/sixteendp"
+                android:paddingBottom="@dimen/eight_dp"
+                android:text="@string/sos"
+                android:layout_below="@id/futa_sos"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/futa_info_set"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:background="@drawable/frame_back_opaq"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:padding="@dimen/four_dp"
+                android:layout_below="@id/futa_science"
+                android:text="SCHOOL OF ENVIRONMENTAL TECHNOLOGY" />
+            <ImageView
+                android:id="@+id/futa_set"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:contentDescription="SET"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingTop="@dimen/eight_dp"
+                android:paddingRight="@dimen/sixteendp"
+                android:src="@drawable/futa_set"
+                android:layout_below="@id/futa_info_set" />
+            <TextView
+                android:id="@+id/futa_environ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingRight="@dimen/sixteendp"
+                android:paddingBottom="@dimen/eight_dp"
+                android:text="@string/set"
+                android:layout_below="@id/futa_set"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/futa_info_sems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:background="@drawable/frame_back_opaq"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:padding="@dimen/four_dp"
+                android:layout_below="@id/futa_environ"
+                android:text="SCHOOL OF EARTH AND MINERAL SCIENCES" />
+            <ImageView
+                android:id="@+id/futa_sems"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:contentDescription="SEMS"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingTop="@dimen/eight_dp"
+                android:paddingRight="@dimen/sixteendp"
+                android:src="@drawable/futa_sems"
+                android:layout_below="@id/futa_info_sems" />
+            <TextView
+                android:id="@+id/futa_minerals"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingRight="@dimen/sixteendp"
+                android:paddingBottom="@dimen/eight_dp"
+                android:text="@string/sems"
+                android:layout_below="@id/futa_sems"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/futa_info_health"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:background="@drawable/frame_back_opaq"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:padding="@dimen/four_dp"
+                android:layout_below="@id/futa_minerals"
+                android:text="FUTA HHEALTH CENTRE" />
+            <ImageView
+                android:id="@+id/futa_health"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginBottom="@dimen/four_dp"
+                android:contentDescription="FUTA Health Centre"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingTop="@dimen/eight_dp"
+                android:paddingRight="@dimen/sixteendp"
+                android:src="@drawable/futa_health"
+                android:layout_below="@id/futa_info_health" />
+            <TextView
+                android:id="@+id/futa_heal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:paddingLeft="@dimen/sixteendp"
+                android:paddingRight="@dimen/sixteendp"
+                android:paddingBottom="@dimen/eight_dp"
+                android:text="@string/health"
+                android:layout_below="@id/futa_health"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/four_dp"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btn_tour"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/four_dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="Campus Tour"
+            android:textColor="@color/whitie" />
+
+        <Button
+            android:id="@+id/btn_exit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/four_dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="Exit"
+            android:textColor="@color/whitie" />
+    </LinearLayout>
+
+</RelativeLayout>

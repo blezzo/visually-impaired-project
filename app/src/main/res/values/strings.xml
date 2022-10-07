@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Friendly Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="soc">The University\'s School of Computing was founded in 2018. It was created
+    to cater to the needs of departments that were more related to computer science than general science.
+    It is located in the Obanla campus of FUTA.</string>
+    <string name="saat">The School of Agriculture and Agricultural Technology is foremost among the
+    six schools of FUTA established in 1982. It has programs in agricultural and natural resources
+    management. It is located in the Obanla campus of FUTA. </string>
+    <string name="seet">The School of Engineering and Engineering Technology was established in 1988,
+    seven years after the Federal University of Technology, Akure came into exixtence. It is located in the Obanla campus of FUTA.</string>
+    <string name="sos">The School of Science is one of the schools established at the inception of the
+    university in 1982. Presently, the School of Sciences consists of nine departments namely; Biochemistry,
+    Biology, Chemistry, Mathematical Sciences, General Studies, Microbiology, Physics, Statistics and Biotechnology.
+    It is located in the Obanla campus of FUTA.</string>
+    <string name="sems">The School of Earth and Mineral Sciences is one of the Schools in FUTA aimed at
+    making a strong positive impact on the nation\'s positive impact on the nation\'s mineral industry
+    and on the application of climate information for sustainable development. It is located in the Obanla campus of FUTA.</string>
+    <string name="set">The School of Environmental Technology is a school in FUTA with a mission
+    to promote inter-disciplinary research, service-based learning and innovative course content delivery
+    towards solving environmental problems through the application of technology and promotion of sustainable
+    built-environment. It is located in the Obanla campus of FUTA.</string>
+    <string name="lib">The University Library, FUTA was established in 1982 with the an aim to build
+    up intellectual resources in all formats that will support technological drive of the university
+    by providing conducive environment for research, teaching and learning that will encourage development
+    of products that are technologically oriented and self-reliant. The library is located in the Obanla campus of FUTA.</string>
+    <string name="crc">The Computer Resource Centre FUTA serves as the Information and Communication
+    Technology nerve center of the university. It is located beside the School of Computing in the
+    Obanla campus of FUTA.</string>
+    <string name="health">FUTA Health Centre is located along obakere road, FUTA South Gate.</string>
+    <string name="capacity">The FUTA 2500 Capcity Auditorium is the biggest auditorium on campus.
+    It is located in the Obanla campus of FUTA.</string>
+    <string name="senate">The Senate Building in FUTA is responsible for the coordination of all academic
+    activities in the university. It is located in the Obanla campus of FUTA.</string>
+    <string name="affairs">The Student Affairs is a division of dedicated people committed
+    to support students in their studies, social growth, and well-being in reaching their highest
+    potentials while at the University. It is located in the Obanla campus of FUTA.</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="eight_dp">8dp</dimen>
+    <dimen name="twentyfour">24dp</dimen>
+    <dimen name="four_dp">4dp</dimen>
+    <dimen name="forty_dp">40dp</dimen>
+    <dimen name="fortyeight_dp">48dp</dimen>
+    <dimen name="sixteendp">16dp</dimen>
+</resources>
